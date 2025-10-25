@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ABCd Extreme Cleans | Coming Soon</title>
+    <style>
+        :root {
+            color-scheme: dark;
+            --bg-deep: #01060f;
+            --bg-panel: rgba(5, 18, 30, 0.78);
+            --text-main: #e8f5ff;
+            --text-muted: #9fb7cc;
+            --accent-a: #2c65ff;
+            --accent-b: #1cd4d4;
+            --accent-soft: rgba(44, 101, 255, 0.18);
+            --accent-soft-2: rgba(28, 212, 212, 0.18);
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+            background:
+                radial-gradient(120% 140% at 10% 10%, rgba(44, 101, 255, 0.3) 0%, transparent 55%),
+                radial-gradient(140% 160% at 90% 15%, rgba(28, 212, 212, 0.35) 0%, transparent 50%),
+                var(--bg-deep);
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: clamp(2rem, 5vw, 4rem);
+        }
+
+        main {
+            width: min(720px, 100%);
+            background: var(--bg-panel);
+            backdrop-filter: blur(20px);
+            border-radius: 24px;
+            padding: clamp(2.5rem, 5vw, 3.75rem);
+            text-align: center;
+            border: 1px solid rgba(121, 178, 220, 0.2);
+            box-shadow:
+                0 30px 60px rgba(0, 0, 0, 0.55),
+                0 0 0 1px rgba(121, 178, 220, 0.08) inset;
+        }
+
+        .logo-wrap {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .logo-wrap img {
+            width: min(320px, 65vw);
+            height: auto;
+            display: block;
+            border-radius: 18px;
+            box-shadow:
+                0 12px 40px rgba(28, 212, 212, 0.28),
+                0 0 0 1px rgba(44, 101, 255, 0.45);
+        }
+
+        .status {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            padding: 0.5rem 1.4rem;
+            border-radius: 999px;
+            background: linear-gradient(120deg, var(--accent-soft), var(--accent-soft-2));
+            font-size: 0.9rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: #c5e8ff;
+            margin-bottom: 1.25rem;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: clamp(2.25rem, 5vw, 3.1rem);
+            font-weight: 700;
+            line-height: 1.1;
+            background: linear-gradient(90deg, var(--accent-a), var(--accent-b));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .tagline {
+            margin: 1rem auto 1.75rem;
+            max-width: 540px;
+            font-size: 1.05rem;
+            line-height: 1.65;
+            color: var(--text-muted);
+        }
+
+        .mission {
+            font-size: 1.05rem;
+            line-height: 1.65;
+            max-width: 560px;
+            margin: 0 auto 2.5rem;
+            color: #d5e9f7;
+        }
+
+        .contact {
+            display: grid;
+            gap: 1.1rem;
+            justify-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .contact a {
+            color: var(--text-main);
+            font-weight: 600;
+            text-decoration: none;
+            padding: 0.85rem 1.6rem;
+            border-radius: 999px;
+            border: 1px solid rgba(140, 196, 235, 0.3);
+            background: rgba(5, 30, 42, 0.6);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+            transition: transform 0.18s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+        }
+
+        .contact a:hover,
+        .contact a:focus {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 30px rgba(28, 212, 212, 0.32);
+            border-color: rgba(28, 212, 212, 0.8);
+        }
+
+        .note {
+            margin: 0;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        .divider {
+            height: 1px;
+            width: min(520px, 85%);
+            margin: 2rem auto;
+            background: linear-gradient(90deg, transparent, rgba(121, 178, 220, 0.5), transparent);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1.5rem;
+            }
+
+            main {
+                padding: 2.25rem 1.75rem 2.5rem;
+            }
+
+            .status {
+                font-size: 0.8rem;
+                padding: 0.4rem 1.2rem;
+            }
+
+            .contact a {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="logo-wrap">
+            <img src="cleaning_logo.png" alt="ABCd Extreme Clean brand logo">
+        </div>
+        <div class="status">Coming Soon</div>
+        <h1>ABCd Extreme Cleans</h1>
+        <p class="tagline">Forget the D for Dirt — go beyond clean. We are crafting an elevated service experience that delivers spotless spaces with extreme care.</p>
+        <div class="divider"></div>
+        <p class="mission">Expect eco-conscious products, precision detailing, and reliable pros dedicated to dazzling results in homes, offices, and everything in between. The next-level clean you are picturing is almost here.</p>
+        <div class="contact">
+            <a href="mailto:abcdextremecleans@gmail.com">abcdextremecleans@gmail.com</a>
+            <a href="tel:+61412151996">Call us on 0412&nbsp;151&nbsp;996</a>
+        </div>
+        <p class="note">Follow our channels for launch updates, exclusive offers, and a front-row seat to the sparkle.</p>
+    </main>
+</body>
+
+</html>
