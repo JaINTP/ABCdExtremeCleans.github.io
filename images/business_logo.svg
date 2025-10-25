@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 220" role="img" aria-labelledby="title desc">
+  <title id="title">ABCd Extreme Cleans Logo</title>
+  <desc id="desc">Gradient logotype for ABCd Extreme Cleans with tagline Forget the D for Dirt, go beyond clean - Go EXTREME!</desc>
+  <defs>
+    <linearGradient id="logogradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2f6bff"/>
+      <stop offset="50%" stop-color="#1f9dd5"/>
+      <stop offset="100%" stop-color="#12c9cf"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="220" fill="#050505" rx="24" ry="24"/>
+  <g fill="url(#logogradient)" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-weight="600" text-anchor="middle">
+    <text x="350" y="105" font-size="82">ABC<tspan fill="#2f6bff">d</tspan> Extreme Clean</text>
+  </g>
+  <text x="350" y="168" font-family="'Source Sans Pro', 'Segoe UI', Arial, sans-serif" font-size="24" fill="#f4f7fb" text-anchor="middle">
+    Forget the D for Dirt, go beyond clean - GO EXTREME!
+  </text>
+</svg>
